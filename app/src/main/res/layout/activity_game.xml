@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="10dp"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/currentMarkText">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text=""
+                android:textColor="@android:color/transparent"
+                app:backgroundTint="@color/button_background_color"
+                app:cornerRadius="10dp"
+                app:strokeColor="#0D000000"
+                app:strokeWidth="5dp"
+                android:enabled="false"
+                tools:ignore="ButtonStyle,HardcodedText" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:text=""
+                android:textColor="@android:color/transparent"
+                app:backgroundTint="@color/button_background_color"
+                app:cornerRadius="10dp"
+                app:strokeColor="#0D000000"
+                app:strokeWidth="5dp"
+                android:enabled="false"
+                tools:ignore="ButtonStyle,HardcodedText" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text=""
+                android:textColor="@android:color/transparent"
+                app:backgroundTint="@color/button_background_color"
+                app:cornerRadius="10dp"
+                app:strokeColor="#0D000000"
+                app:strokeWidth="5dp"
+                android:enabled="false"
+                tools:ignore="ButtonStyle,HardcodedText" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text=""
+                android:textColor="@android:color/transparent"
+                app:backgroundTint="@color/button_background_color"
+                app:cornerRadius="10dp"
+                app:strokeColor="#0D000000"
+                app:strokeWidth="5dp"
+                android:enabled="false"
+                tools:ignore="ButtonStyle,HardcodedText" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:text=""
+                android:textColor="@android:color/transparent"
+                app:backgroundTint="@color/button_background_color"
+                app:cornerRadius="10dp"
+                app:strokeColor="#0D000000"
+                app:strokeWidth="5dp"
+                android:enabled="false"
+                tools:ignore="ButtonStyle,HardcodedText" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text=""
+                android:textColor="@android:color/transparent"
+                app:backgroundTint="@color/button_background_color"
+                app:cornerRadius="10dp"
+                app:strokeColor="#0D000000"
+                app:strokeWidth="5dp"
+                android:enabled="false"
+                tools:ignore="ButtonStyle,HardcodedText" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text=""
+                android:textColor="@android:color/transparent"
+                app:backgroundTint="@color/button_background_color"
+                app:cornerRadius="10dp"
+                app:strokeColor="#0D000000"
+                app:strokeWidth="5dp"
+                android:enabled="false"
+                tools:ignore="ButtonStyle,HardcodedText" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:text=""
+                android:textColor="@android:color/transparent"
+                app:backgroundTint="@color/button_background_color"
+                app:cornerRadius="10dp"
+                app:strokeColor="#0D000000"
+                app:strokeWidth="5dp"
+                android:enabled="false"
+                tools:ignore="ButtonStyle,HardcodedText" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text=""
+                android:textColor="@android:color/transparent"
+                app:backgroundTint="@color/button_background_color"
+                app:cornerRadius="10dp"
+                app:strokeColor="#0D000000"
+                app:strokeWidth="5dp"
+                android:enabled="false"
+                tools:ignore="ButtonStyle,HardcodedText" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/currentMarkText"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:text="Текущий знак:"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/winnerText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:text=""
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+    <Button
+        android:id="@+id/quit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выйти в главное меню"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/quit_button_color"
+        android:enabled="false"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/winnerText"
+        tools:ignore="HardcodedText" />
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="10dp"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/currentMarkText">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imageView0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="30dp"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_launcher_foreground"
+                android:scaleType="fitCenter"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:padding="30dp"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_launcher_foreground"
+                android:scaleType="fitCenter"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="30dp"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_launcher_foreground"
+                android:scaleType="fitCenter"
+                tools:ignore="ContentDescription" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="30dp"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_launcher_foreground"
+                android:scaleType="fitCenter"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:padding="30dp"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_launcher_foreground"
+                android:scaleType="fitCenter"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="30dp"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_launcher_foreground"
+                android:scaleType="fitCenter"
+                tools:ignore="ContentDescription" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="30dp"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_launcher_foreground"
+                android:scaleType="fitCenter"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:padding="30dp"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_launcher_foreground"
+                android:scaleType="fitCenter"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="30dp"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_launcher_foreground"
+                android:scaleType="fitCenter"
+                tools:ignore="ContentDescription" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/currentMarkImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:visibility="invisible"
+        android:scaleType="fitCenter"
+        android:padding="10dp"
+        app:layout_constraintStart_toEndOf="@+id/currentMarkText"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:ignore="ContentDescription" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

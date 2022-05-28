@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1745" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1745" />
+        <entry key="app/src/main/res/drawable/o1.xml" value="0.1605" />
+        <entry key="app/src/main/res/drawable/o2.xml" value="0.188" />
+        <entry key="app/src/main/res/drawable/o3.xml" value="0.188" />
+        <entry key="app/src/main/res/drawable/o4.xml" value="0.188" />
+        <entry key="app/src/main/res/drawable/o5.xml" value="0.188" />
+        <entry key="app/src/main/res/drawable/o6.xml" value="0.188" />
+        <entry key="app/src/main/res/drawable/x1.xml" value="0.1605" />
+        <entry key="app/src/main/res/drawable/x2.xml" value="0.188" />
+        <entry key="app/src/main/res/drawable/x3.xml" value="0.188" />
+        <entry key="app/src/main/res/drawable/x4.xml" value="0.188" />
+        <entry key="app/src/main/res/drawable/x5.xml" value="0.188" />
+        <entry key="app/src/main/res/drawable/x6.xml" value="0.188" />
+        <entry key="app/src/main/res/layout-v28/activity_menu.xml" value="0.1703125" />
+        <entry key="app/src/main/res/layout/activity_difficulty.xml" value="0.2333463886418803" />
+        <entry key="app/src/main/res/layout/activity_game.xml" value="0.26174682617187495" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_menu.xml" value="0.23536132812500002" />
+        <entry key="app/src/main/res/layout/activity_skins.xml" value="0.24512023925781265" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
